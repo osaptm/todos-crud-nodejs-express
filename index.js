@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express'); 
 const ToDosController = require('./controlleres/todos.controller');
-const _PORT = process.env._PORT || 3000
+const _PORT = process.env.PORT || 3000
 
 // INSTANCIAR LA CLASE CONTROLADORA - LEER DB JSON
 const _ToDosController= new ToDosController();
